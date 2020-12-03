@@ -1,0 +1,20 @@
+.header{
+    padding:10PX 30PX;
+    color: #FFF;
+    background-color: #003c8d;
+    box-sizing: border-box;
+    .header-userInfo{
+        margin-left: 12PX;
+        .at-article__h2{font-size: 32rpx;}
+        .at-article__h3{font-size: 28rpx;}
+    }
+}
+.panel-body{
+    margin: 10PX 20PX;
+    .at-list__item {
+        font-size: 28rpx;
+        .item-extra__info {
+            font-size: 24rpx;  
+        }
+    }
+}

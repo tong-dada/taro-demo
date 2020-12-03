@@ -1,0 +1,15 @@
+.tab-content{
+    font-size: 28rpx;
+}
+
+.at-tabs__item {
+    font-weight: 600;
+    &.at-tabs__item--active{
+        color: #003C8D;
+        .at-tabs__item-underline {
+            background-color:#003C8D;
+            height: 2PX;  
+        }
+    }
+}
+
