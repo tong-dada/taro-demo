@@ -3,6 +3,7 @@ export default {
     'pages/index/index',
     'pages/order/index',
     'pages/user/index',
+    'pages/login/index',
     'pages/appointment_mail/index'
   ],
   window: {

@@ -4,7 +4,7 @@
       <AtNoticebar marquee>
         欢迎使用德邦快递！
       </AtNoticebar>
-      <AtButton>寄件</AtButton>
+    
     </view>
   </view>
 </template>

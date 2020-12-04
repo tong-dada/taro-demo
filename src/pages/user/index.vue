@@ -1,7 +1,7 @@
 <template>
   <view class="index">
     <view class="index">
-      <view class="header at-row  at-row__align--center">
+      <view class="header at-row  at-row__align--center" @tap='toLogin'>
         <view class="header-avatar at-col at-col-1 at-col--auto">
           <AtAvatar circle image='https://jdc.jd.com/img/200'></AtAvatar>
         </view>
@@ -25,6 +25,7 @@
 <script>
 // 按需引入, 更小的应用体积  AtButton, AtToast, AtNoticebar,
 import { AtAvatar,AtListItem,AtList } from 'taro-ui-vue'
+import Taro from '@tarojs/taro'
 // import "taro-ui-vue/dist/style/components/button.scss"
 // import "taro-ui-vue/dist/style/components/toast.scss"
 // import "taro-ui-vue/dist/style/components/noticebar.scss"
@@ -54,8 +55,14 @@ export default {
       handleClose () {
         this.show = false
       },
-      handleClickTab(value) {
-        this.current1 = value
+      toLogin(value) {
+        console.log(value)
+        Taro.navigateTo({
+          url: '../login/index'
+        })
+        // wx.redirectTo({
+        //   url: '../login/index'
+        // })
       }
     },
   }
