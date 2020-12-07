@@ -2,7 +2,7 @@
   "miniprogramRoot": "dist/",
   "projectname": "myApp",
   "description": "",
-  "appid": "touristappid",
+  "appid": "wxa46cdd329f98754c",
   "setting": {
     "urlCheck": true,
     "es6": false,
@@ -33,7 +33,6 @@
     "useIsolateContext": true,
     "useCompilerModule": false,
     "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true

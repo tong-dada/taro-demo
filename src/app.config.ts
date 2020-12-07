@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-12-04 09:57:33
+ * @LastEditTime: 2020-12-07 17:53:40
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /deppon/taro-demo/src/app.config.ts
+ */
 export default {
   pages: [
     'pages/index/index',
@@ -9,7 +17,7 @@ export default {
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
-    navigationBarTitleText: '德邦跨境',
+    navigationBarTitleText: 'db科技',
     navigationBarTextStyle: 'black'
   },
   tabBar:{

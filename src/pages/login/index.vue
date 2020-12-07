@@ -1,35 +1,62 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-12-04 09:57:33
+ * @LastEditTime: 2020-12-07 11:29:30
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /deppon/taro-demo/src/pages/login/index.vue
+-->
 <template>
+  <!-- login -->
   <view class="index">
     <view class="index">
-      <AtNoticebar marquee>
+      <!-- <AtNoticebar marquee>
         欢迎使用德邦快递！
-      </AtNoticebar>
-    
+      </AtNoticebar> -->
+      
+      <view class="login_box">
+        <view class="login_head">
+          <view class="login_top">
+            <!-- :size='large' -->
+            <image :image='headimgurl' mode='center'></image>
+            <text>德邦快递跨境</text>
+          </view>
+          <button
+            class="login_button"
+            open-type="getUserInfo"
+            bindgetuserinfo="getUserInfo"
+            >微信账号快捷登录
+          </button>
+        </view>
+      </view>
+      
     </view>
   </view>
 </template>
 
 <script>
 // 按需引入, 更小的应用体积
-import { AtButton, AtToast, AtNoticebar } from 'taro-ui-vue'
-// tabBar 组件
-import { AtTabBar } from 'taro-ui-vue'
-import "taro-ui-vue/dist/style/components/tab-bar.scss";
-import "taro-ui-vue/dist/style/components/badge.scss";
-import "taro-ui-vue/dist/style/components/icon.scss";
+import { 
+  AtNoticebar,
+  AtButton,
+  AtToast,
+  AtAvatar
+} from 'taro-ui-vue'
+import Taro from '@tarojs/taro';
 
 import "taro-ui-vue/dist/style/components/button.scss"
 import "taro-ui-vue/dist/style/components/toast.scss"
 import "taro-ui-vue/dist/style/components/noticebar.scss"
+import "taro-ui-vue/dist/style/components/avatar.scss"
 import './index.scss' 
 
-import Taro from '@tarojs/taro';
 export default {
     components: {
     AtButton,
     AtToast,
     AtNoticebar,
-    AtTabBar
+    // AtTabBar
+    AtAvatar
   },
   data () {
     return {
@@ -43,6 +70,8 @@ export default {
         { title: '通讯录', dot: true }
       ],
       //tabBar end
+      headimgurl:'../../assets/imgs/logo.png',
+      large:'large'
     }
   },
   methods: {

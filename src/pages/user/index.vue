@@ -1,9 +1,17 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-12-04 09:57:33
+ * @LastEditTime: 2020-12-07 10:10:17
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /deppon/taro-demo/src/pages/user/index.vue
+-->
 <template>
   <view class="index">
     <view class="index">
       <view class="header at-row  at-row__align--center" @tap='toLogin'>
         <view class="header-avatar at-col at-col-1 at-col--auto">
-          <AtAvatar circle image='https://jdc.jd.com/img/200'></AtAvatar>
+          <AtAvatar circle image='../../assets/imgs/img01.png'></AtAvatar>
         </view>
         <view class="header-userInfo at-col at-row at-row--wrap">
             <text class="at-article__h2 at-col at-col-12">登录/注册</text>
@@ -26,6 +34,8 @@
 // 按需引入, 更小的应用体积  AtButton, AtToast, AtNoticebar,
 import { AtAvatar,AtListItem,AtList } from 'taro-ui-vue'
 import Taro from '@tarojs/taro'
+// import headimgurl from '../../assets/imgs/img01.png'
+
 // import "taro-ui-vue/dist/style/components/button.scss"
 // import "taro-ui-vue/dist/style/components/toast.scss"
 // import "taro-ui-vue/dist/style/components/noticebar.scss"
@@ -46,6 +56,7 @@ export default {
       return {
         msg: 'Hello world!',
         show: false,
+        // headimgurl
       }
     },
     methods: {

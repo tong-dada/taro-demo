@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-12-04 09:57:33
+ * @LastEditTime: 2020-12-07 10:08:48
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /deppon/taro-demo/config/index.js
+ */
 const config = {
   projectName: 'myApp',
   date: '2020-12-3',
@@ -8,12 +16,17 @@ const config = {
     828: 1.81 / 2
   },
   sourceRoot: 'src',
+  // outputRoot: `dist/${process.env.TARO_ENV}`,
   outputRoot: 'dist',
   plugins: [],
   defineConstants: {
   },
   copy: {
     patterns: [
+      {
+        from: 'src/assets',
+        to: 'dist/assets'
+      }
     ],
     options: {
     }

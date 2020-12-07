@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-12-04 09:57:33
+ * @LastEditTime: 2020-12-07 11:29:23
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /deppon/taro-demo/src/pages/appointment_mail/index.vue
+-->
 <template>
   <view class="index">
     <view class="index">
@@ -11,14 +19,13 @@
 
 <script>
 // 按需引入, 更小的应用体积
-import { AtButton, AtToast, AtNoticebar } from 'taro-ui-vue'
+import { AtButton, AtToast, AtNoticebar,AtTabBar } from 'taro-ui-vue'
 // tabBar 组件
-import { AtTabBar } from 'taro-ui-vue'
 import "taro-ui-vue/dist/style/components/tab-bar.scss";
 import "taro-ui-vue/dist/style/components/badge.scss";
-import "taro-ui-vue/dist/style/components/icon.scss";
-
 import "taro-ui-vue/dist/style/components/button.scss"
+// import "taro-ui-vue/dist/style/components/icon.scss";
+
 import "taro-ui-vue/dist/style/components/toast.scss"
 import "taro-ui-vue/dist/style/components/noticebar.scss"
 import './index.scss' 

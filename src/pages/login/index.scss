@@ -1,0 +1,22 @@
+.login_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    .login_head{
+        margin-top: 120rpx;
+        .login_top{
+            width: 280rpx;
+            margin-bottom: 80rpx;
+            font-size: 28rpx;
+            .at-avatar--large {
+                margin: 0 auto;
+                min-width: 120rpx;
+            }
+        }
+    }
+    .login_button{
+        // width: 88%;
+    }
+}
