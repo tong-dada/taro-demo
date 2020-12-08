@@ -1,9 +1,15 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-12-04 09:57:33
+ * @LastEditTime: 2020-12-08 08:06:43
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /deppon/taro-demo/src/pages/index/index.vue
+-->
 <template>
   <view class="index">
     <view class="index">
-      <AtNoticebar marquee>
-        欢迎使用德邦快递！
-      </AtNoticebar>
+      
       <AtButton>寄件</AtButton>
     </view>
   </view>
@@ -35,14 +41,6 @@ export default {
     return {
       msg: 'Hello world!',
       show: false,
-      // tabBar and
-      current1: 0,
-      tabList1: [
-        { title: '待办事项', text: 8 },
-        { title: '拍照' },
-        { title: '通讯录', dot: true }
-      ],
-      //tabBar end
     }
   },
   methods: {

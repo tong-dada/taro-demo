@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-04 09:57:33
- * @LastEditTime: 2020-12-07 10:10:17
+ * @LastEditTime: 2020-12-08 08:07:38
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /deppon/taro-demo/src/pages/user/index.vue
@@ -15,7 +15,7 @@
         </view>
         <view class="header-userInfo at-col at-row at-row--wrap">
             <text class="at-article__h2 at-col at-col-12">登录/注册</text>
-            <text class="at-article__h3 at-col at-col-12">欢迎来到德邦国际</text>
+            <text class="at-article__h3 at-col at-col-12">欢迎来到db科技</text>
         </view>
       </view>
       <view class="panel-body">

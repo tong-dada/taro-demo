@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-04 09:57:33
- * @LastEditTime: 2020-12-07 11:29:30
+ * @LastEditTime: 2020-12-08 08:05:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /deppon/taro-demo/src/pages/login/index.vue
@@ -19,7 +19,7 @@
           <view class="login_top">
             <!-- :size='large' -->
             <image :image='headimgurl' mode='center'></image>
-            <text>德邦快递跨境</text>
+            <text>db科技</text>
           </view>
           <button
             class="login_button"
